@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;net45;</TargetFrameworks>
+    <RootNamespace>programmersdigest.MT940Parser</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Version>0.5.5</Version>
+    <Authors>Michael Sperber (programmersidgest.de)</Authors>
+    <Company>programmersdigest.de</Company>
+    <Description>A parser for the SWIFT MT940/MT942 format.</Description>
+    <Copyright>Copyright © Michael Sperber (programmersdigest.de) 2018</Copyright>
+    <PackageLicenseUrl></PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/programmersdigest/MT940Parser</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/programmersdigest/MT940Parser</RepositoryUrl>
+    <RepositoryType>github</RepositoryType>
+    <PackageTags>SWIFT MT940 MT942 Parser</PackageTags>
+    <PackageIconUrl>https://raw.githubusercontent.com/programmersdigest/MT940Parser/master/Resources/Icon.png</PackageIconUrl>
+    <PackageId>programmersdigest.MT940Parser</PackageId>
+    <Product>programmersdigest.MT940Parser</Product>
+    <AssemblyName>programmersdigest.MT940Parser</AssemblyName>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(TargetFramework)'=='netstandard2.0'">
+    <DefineConstants>NETSTANDARD</DefineConstants>
+  </PropertyGroup>
+</Project>
